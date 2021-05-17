@@ -1,10 +1,10 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@marp-team/marp-cli': ^1.0.1
+  '@marp-team/marp-cli': ^1.1.0
 
 devDependencies:
-  '@marp-team/marp-cli': 1.0.1
+  '@marp-team/marp-cli': 1.1.0
 
 packages:
 
@@ -26,12 +26,12 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@marp-team/marp-cli/1.0.1:
-    resolution: {integrity: sha512-nrMwsdMM8Tvc5cwjKef1BYcoIN++XtRWlMn9/K2LY7qHDSI58UgY419ol3zm+4/tn8U9cVpcHO6siRmS0MqXxg==}
+  /@marp-team/marp-cli/1.1.0:
+    resolution: {integrity: sha512-OUaJpJbHkweKWmf8fqktHP9X02FitPJXXsVDfXl/dlsPi7aOJwMijzLW48gtTQx/rRFQNILsye2GrHkFZqYoPg==}
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
-      '@marp-team/marp-core': 2.0.1
+      '@marp-team/marp-core': 2.0.2
       '@marp-team/marpit': 2.0.1
       chokidar: 3.5.1
       chrome-launcher: 0.13.4
@@ -39,36 +39,36 @@ packages:
       express: 4.17.1
       globby: 11.0.3
       import-from: 3.0.0
-      pptxgenjs: 3.5.0
-      puppeteer-core: 9.0.0
+      pptxgenjs: 3.6.0
+      puppeteer-core: 9.1.1
       serve-index: 1.9.1
       tmp: 0.2.1
       v8-compile-cache: 2.3.0
       ws: 7.4.5
-      yargs: 16.2.0
+      yargs: 17.0.1
     transitivePeerDependencies:
       - bufferutil
       - supports-color
       - utf-8-validate
     dev: true
 
-  /@marp-team/marp-core/2.0.1:
-    resolution: {integrity: sha512-DVhvi4nFmjyuCqSkTW43Hdkhy4Vh2LbxiqyBaTVWb80T2EXQKaFpwwSOQGVY2WMjkZhj4gDdwlCYvRVde4qKwQ==}
+  /@marp-team/marp-core/2.0.2:
+    resolution: {integrity: sha512-Bdioff4eNGghWr/5mll3LvxxxprDZZUtz1chavVx9JfVAdyLIeT3amVk/gHKiZR1KDaGFYiKp+LQfkkjP05jwg==}
     engines: {node: '>=10'}
     dependencies:
       '@marp-team/marpit': 2.0.1
       '@marp-team/marpit-svg-polyfill': 1.7.1_@marp-team+marpit@2.0.1
       emoji-regex: 9.2.2
       highlight.js: 10.7.2
-      katex: 0.13.3
+      katex: 0.13.11
       markdown-it-emoji: 2.0.0
       mathjax-full: 3.1.4
-      postcss: 8.2.13
-      postcss-minify-params: 5.0.0_postcss@8.2.13
-      postcss-minify-selectors: 5.0.0_postcss@8.2.13
-      postcss-normalize-whitespace: 5.0.0_postcss@8.2.13
+      postcss: 8.2.15
+      postcss-minify-params: 5.0.0_postcss@8.2.15
+      postcss-minify-selectors: 5.0.0_postcss@8.2.15
+      postcss-normalize-whitespace: 5.0.0_postcss@8.2.15
       twemoji: 13.0.2
-      xss: 1.0.8
+      xss: 1.0.9
     dev: true
 
   /@marp-team/marpit-svg-polyfill/1.7.1_@marp-team+marpit@2.0.1:
@@ -432,13 +432,13 @@ packages:
     resolution: {integrity: sha1-xtJnJjKi5cg+AT5oZKQs6N79IK4=}
     dev: true
 
-  /cssnano-utils/2.0.0_postcss@8.2.13:
+  /cssnano-utils/2.0.0_postcss@8.2.15:
     resolution: {integrity: sha512-xvxmTszdrvSyTACdPe8VU5J6p4sm3egpgw54dILvNqt5eBUv6TFjACLhSxtRuEsxYrgy8uDy269YjScO5aKbGA==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.1
     dependencies:
-      postcss: 8.2.13
+      postcss: 8.2.15
     dev: true
 
   /debug/2.6.9:
@@ -948,8 +948,8 @@ packages:
       set-immediate-shim: 1.0.1
     dev: true
 
-  /katex/0.13.3:
-    resolution: {integrity: sha512-/w0eycuK1xh201T0uFXYOZWPDoeqDHqR+6SLLKsYvNtUCYtmRjq8F+M74sdpzs+dJZYWv2eUsSW0r1AJfhZOCw==}
+  /katex/0.13.11:
+    resolution: {integrity: sha512-yJBHVIgwlAaapzlbvTpVF/ZOs8UkTj/sd46Fl8+qAf2/UiituPYVeapVD8ADZtqyRg/qNWUKt7gJoyYVWLrcXw==}
     hasBin: true
     dependencies:
       commander: 6.2.1
@@ -1112,6 +1112,12 @@ packages:
     hasBin: true
     dev: true
 
+  /nanoid/3.1.23:
+    resolution: {integrity: sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: true
+
   /negotiator/0.6.2:
     resolution: {integrity: sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==}
     engines: {node: '>= 0.6'}
@@ -1224,7 +1230,7 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /postcss-minify-params/5.0.0_postcss@8.2.13:
+  /postcss-minify-params/5.0.0_postcss@8.2.15:
     resolution: {integrity: sha512-KvZYIxTPBVKjdd+XgObq9A+Sfv8lMkXTpbZTsjhr42XbfWIeLaTItMlygsDWfjArEc3muUfDaUFgNSeDiJ5jug==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -1232,30 +1238,30 @@ packages:
     dependencies:
       alphanum-sort: 1.0.2
       browserslist: 4.16.6
-      cssnano-utils: 2.0.0_postcss@8.2.13
-      postcss: 8.2.13
+      cssnano-utils: 2.0.0_postcss@8.2.15
+      postcss: 8.2.15
       postcss-value-parser: 4.1.0
       uniqs: 2.0.0
     dev: true
 
-  /postcss-minify-selectors/5.0.0_postcss@8.2.13:
+  /postcss-minify-selectors/5.0.0_postcss@8.2.15:
     resolution: {integrity: sha512-cEM0O0eWwFIvmo6nfB0lH0vO/XFwgqIvymODbfPXZ1gTA3i76FKnb7TGUrEpiTxaXH6tgYQ6DcTHwRiRS+YQLQ==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.1
     dependencies:
       alphanum-sort: 1.0.2
-      postcss: 8.2.13
+      postcss: 8.2.15
       postcss-selector-parser: 3.1.2
     dev: true
 
-  /postcss-normalize-whitespace/5.0.0_postcss@8.2.13:
+  /postcss-normalize-whitespace/5.0.0_postcss@8.2.15:
     resolution: {integrity: sha512-KRnxQvQAVkJfaeXSz7JlnD9nBN9sFZF9lrk9452Q2uRoqrRSkinqifF8Iex7wZGei2DZVG/qpmDFDmRvbNAOGA==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.1
     dependencies:
-      postcss: 8.2.13
+      postcss: 8.2.15
       postcss-value-parser: 4.1.0
     dev: true
 
@@ -1281,8 +1287,17 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /pptxgenjs/3.5.0:
-    resolution: {integrity: sha512-kFlY1t/cQiHiF+vjCf1Ar9IJ7/NEq8QwC9tkQ9QGSpxLbld052rjxWNanrIWlVW9Vakpe/ZWGXXFqUUP46hsBA==}
+  /postcss/8.2.15:
+    resolution: {integrity: sha512-2zO3b26eJD/8rb106Qu2o7Qgg52ND5HPjcyQiK2B98O388h43A448LCslC0dI2P97wCAQRJsFvwTRcXxTKds+Q==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      colorette: 1.2.2
+      nanoid: 3.1.23
+      source-map: 0.6.1
+    dev: true
+
+  /pptxgenjs/3.6.0:
+    resolution: {integrity: sha512-oh63CRVfD2+obLBANsLdcjoeOa8FjIKkR1cAc95/WWgPFc0DI8DJFExGMBqtDwuPgLntyUZHhPC2KFrJBvxR4A==}
     dependencies:
       '@types/node': 14.14.43
       https: 1.0.0
@@ -1318,8 +1333,8 @@ packages:
       once: 1.4.0
     dev: true
 
-  /puppeteer-core/9.0.0:
-    resolution: {integrity: sha512-cgrnFLg5td0ciW3seGmLPlAf7e2jlIEjZlBOij/byS4iD3DRMHxItzVHv5OwEntkC1eamZqt8+WJJpAaGk6zPw==}
+  /puppeteer-core/9.1.1:
+    resolution: {integrity: sha512-zbedbitVIGhmgz0nt7eIdLsnaoVZSlNJfBivqm2w67T8LR2bU1dvnruDZ8nQO0zn++Iet7zHbAOdnuS5+H2E7A==}
     engines: {node: '>=10.18.1'}
     dependencies:
       debug: 4.3.1
@@ -1709,8 +1724,8 @@ packages:
     engines: {node: '>=0.1'}
     dev: true
 
-  /xss/1.0.8:
-    resolution: {integrity: sha512-3MgPdaXV8rfQ/pNn16Eio6VXYPTkqwa0vc7GkiymmY/DqR1SE/7VPAAVZz1GJsJFrllMYO3RHfEaiUGjab6TNw==}
+  /xss/1.0.9:
+    resolution: {integrity: sha512-2t7FahYnGJys6DpHLhajusId7R0Pm2yTmuL0GV9+mV0ZlaLSnb2toBmppATfg5sWIhZQGlsTLoecSzya+l4EAQ==}
     engines: {node: '>= 0.10.0'}
     hasBin: true
     dependencies:
@@ -1733,9 +1748,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /yargs/16.2.0:
-    resolution: {integrity: sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==}
-    engines: {node: '>=10'}
+  /yargs/17.0.1:
+    resolution: {integrity: sha512-xBBulfCc8Y6gLFcrPvtqKz9hz8SO0l1Ni8GgDekvBX2ro0HRQImDGnikfc33cgzcYUSncapnNcZDjVFIH3f6KQ==}
+    engines: {node: '>=12'}
     dependencies:
       cliui: 7.0.4
       escalade: 3.1.1
