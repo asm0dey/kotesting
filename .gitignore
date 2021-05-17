@@ -1,0 +1,8 @@
+.cache/
+dist/
+index*
+!index.md
+node_modules/
+.idea/
+node_modules
+.vscode/
